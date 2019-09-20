@@ -1,0 +1,153 @@
+2019-09-19 09:04:17.661 | INFO     | public.mytest:setUp:16 - ############################### START ###############################
+2019-09-19 09:04:17.804 | INFO     | test_other:test_api:24 - {'code': 10000, 'msg': 'success', 'page': 1, 'size': 20, 'total_size': 15, 'total_page': 1, 'data': [{'id': '5d64a0ba626d3818a0c14954', 'name': '谷米1', 'describe': '谷米大咖1', 'gmtCreate': 1566876038083, 'gmtModified': 1566974298889, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d64a186626d380cf0f45776', 'name': '康凯斯', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d77093ca2500000240047ca', 'name': '谷米2', 'describe': '谷米大咖2', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a09a2500000240047cb', 'name': '谷米3', 'describe': '谷米大咖3', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a12a2500000240047cc', 'name': '康凯斯2', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a21a2500000240047cd', 'name': '谷米4', 'describe': '谷米大咖4', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a21a2500000240047ce', 'name': '康凯斯1', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a2ea2500000240047cf', 'name': '谷米5', 'describe': '谷米大咖5', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a2ea2500000240047d0', 'name': '康凯斯3', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a34a2500000240047d1', 'name': '谷米6', 'describe': '谷米大咖6', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a34a2500000240047d2', 'name': '康凯斯4', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a42a2500000240047d3', 'name': '谷米7', 'describe': '谷米大咖7', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a42a2500000240047d4', 'name': '康凯斯5', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a54a2500000240047d5', 'name': '谷米8', 'describe': '谷米大咖8', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a54a2500000240047d6', 'name': '康凯斯6', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}]}
+2019-09-19 09:04:17.807 | INFO     | public.mytest:tearDown:20 - ###############################  End  ###############################
+2019-09-19 09:04:17.810 | INFO     | public.mytest:setUp:16 - ############################### START ###############################
+2019-09-19 09:04:17.922 | INFO     | test_other:test_api:24 - {'code': 10000, 'msg': 'success', 'data': {'id': '5d64a186626d380cf0f45776', 'name': '康凯斯', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}}
+2019-09-19 09:04:17.923 | INFO     | public.mytest:tearDown:20 - ###############################  End  ###############################
+2019-09-19 09:04:23.279 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 09:13:08.305 | INFO     | public.mytest:setUp:16 - ############################### START ###############################
+2019-09-19 09:13:08.305 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json'}
+2019-09-19 09:13:09.250 | INFO     | test_other:test_api:25 - {'code': 10000, 'msg': 'success', 'page': 1, 'size': 20, 'total_size': 15, 'total_page': 1, 'data': [{'id': '5d64a0ba626d3818a0c14954', 'name': '谷米1', 'describe': '谷米大咖1', 'gmtCreate': 1566876038083, 'gmtModified': 1566974298889, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d64a186626d380cf0f45776', 'name': '康凯斯', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d77093ca2500000240047ca', 'name': '谷米2', 'describe': '谷米大咖2', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a09a2500000240047cb', 'name': '谷米3', 'describe': '谷米大咖3', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a12a2500000240047cc', 'name': '康凯斯2', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a21a2500000240047cd', 'name': '谷米4', 'describe': '谷米大咖4', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a21a2500000240047ce', 'name': '康凯斯1', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a2ea2500000240047cf', 'name': '谷米5', 'describe': '谷米大咖5', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a2ea2500000240047d0', 'name': '康凯斯3', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a34a2500000240047d1', 'name': '谷米6', 'describe': '谷米大咖6', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a34a2500000240047d2', 'name': '康凯斯4', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a42a2500000240047d3', 'name': '谷米7', 'describe': '谷米大咖7', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a42a2500000240047d4', 'name': '康凯斯5', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a54a2500000240047d5', 'name': '谷米8', 'describe': '谷米大咖8', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a54a2500000240047d6', 'name': '康凯斯6', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}]}
+2019-09-19 09:13:09.252 | INFO     | public.mytest:tearDown:20 - ###############################  End  ###############################
+2019-09-19 09:13:09.255 | INFO     | public.mytest:setUp:16 - ############################### START ###############################
+2019-09-19 09:13:09.256 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json'}
+2019-09-19 09:13:09.368 | INFO     | test_other:test_api:25 - {'code': 10000, 'msg': 'success', 'data': {'id': '5d64a186626d380cf0f45776', 'name': '康凯斯', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}}
+2019-09-19 09:13:09.369 | INFO     | public.mytest:tearDown:20 - ###############################  End  ###############################
+2019-09-19 09:13:16.291 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 09:13:40.658 | INFO     | public.mytest:setUp:36 - ############################### START ###############################
+2019-09-19 09:13:40.659 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': 1568855620.6588247}
+2019-09-19 09:13:40.661 | INFO     | public.mytest:tearDown:40 - ###############################  End  ###############################
+2019-09-19 09:13:40.680 | INFO     | public.mytest:setUp:36 - ############################### START ###############################
+2019-09-19 09:13:40.680 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': 1568855620.6588247}
+2019-09-19 09:13:40.681 | INFO     | public.mytest:tearDown:40 - ###############################  End  ###############################
+2019-09-19 09:13:48.451 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 09:15:03.867 | INFO     | public.mytest:setUp:36 - ############################### START ###############################
+2019-09-19 09:15:03.867 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': '1568855703.86706'}
+2019-09-19 09:15:03.983 | INFO     | test_other:test_api:25 - {'code': 10000, 'msg': 'success', 'page': 1, 'size': 20, 'total_size': 15, 'total_page': 1, 'data': [{'id': '5d64a0ba626d3818a0c14954', 'name': '谷米1', 'describe': '谷米大咖1', 'gmtCreate': 1566876038083, 'gmtModified': 1566974298889, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d64a186626d380cf0f45776', 'name': '康凯斯', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d77093ca2500000240047ca', 'name': '谷米2', 'describe': '谷米大咖2', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a09a2500000240047cb', 'name': '谷米3', 'describe': '谷米大咖3', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a12a2500000240047cc', 'name': '康凯斯2', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a21a2500000240047cd', 'name': '谷米4', 'describe': '谷米大咖4', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a21a2500000240047ce', 'name': '康凯斯1', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a2ea2500000240047cf', 'name': '谷米5', 'describe': '谷米大咖5', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a2ea2500000240047d0', 'name': '康凯斯3', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a34a2500000240047d1', 'name': '谷米6', 'describe': '谷米大咖6', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a34a2500000240047d2', 'name': '康凯斯4', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a42a2500000240047d3', 'name': '谷米7', 'describe': '谷米大咖7', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a42a2500000240047d4', 'name': '康凯斯5', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a54a2500000240047d5', 'name': '谷米8', 'describe': '谷米大咖8', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}, {'id': '5d770a54a2500000240047d6', 'name': '康凯斯6', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}]}
+2019-09-19 09:15:03.985 | INFO     | public.mytest:tearDown:40 - ###############################  End  ###############################
+2019-09-19 09:15:03.988 | INFO     | public.mytest:setUp:36 - ############################### START ###############################
+2019-09-19 09:15:03.990 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': '1568855703.86706'}
+2019-09-19 09:15:04.107 | INFO     | test_other:test_api:25 - {'code': 10000, 'msg': 'success', 'data': {'id': '5d64a186626d380cf0f45776', 'name': '康凯斯', 'describe': '适用康凯斯公司生产的所有设备', 'gmtCreate': 1566876038083, 'gmtModified': 1566876038083, 'createdBy': 1, 'modifiedBy': 0}}
+2019-09-19 09:15:04.109 | INFO     | public.mytest:tearDown:40 - ###############################  End  ###############################
+2019-09-19 09:15:09.798 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 09:52:08.681 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 09:52:08.784 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 09:52:14.876 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 09:57:42.260 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 09:57:42.371 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 09:57:48.636 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:00:57.001 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:00:57.002 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:00:57.002 | INFO     | test_login:test_login:21 - {
+ "account":"13028812388",
+ "password":"123456",
+ "platform_code":"PLATFORM",
+ "app_id":"a1287a3837f640e0"
+}
+2019-09-19 10:00:57.002 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:00:57.107 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:01:03.055 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:14:08.296 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:24:02.078 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:24:02.078 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:24:02.079 | INFO     | test_login:test_login:21 - {'account': '13028812388', 'password': '123456', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 10:24:02.079 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:24:02.187 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:24:07.605 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:25:00.067 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:25:00.067 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:25:00.067 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': '123456', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 10:25:00.067 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:25:00.181 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:25:05.531 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:26:04.838 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:26:04.838 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:26:04.838 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 10:26:04.838 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:26:04.960 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:26:10.377 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:29:44.303 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:29:44.304 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:29:44.304 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 10:29:44.304 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:29:44.422 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:29:50.419 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:33:27.258 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:33:27.259 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:33:27.259 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 10:33:27.259 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:33:27.384 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:33:32.460 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:40:50.142 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:40:50.143 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:40:50.143 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 10:40:50.143 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:40:50.277 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:40:50.397 | INFO     | public.mytest:login_func:39 - {'code': 20000, 'msg': 'service-unavailable', 'sub_code': 'unknow-error', 'sub_msg': 'error message', 'data': {}}
+2019-09-19 10:40:55.966 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 10:41:49.963 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 10:41:49.963 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 10:41:49.964 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 10:41:49.964 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 10:41:50.076 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 10:41:50.077 | INFO     | public.mytest:login_func:37 - http://39.100.81.66:8080/login
+2019-09-19 10:41:50.197 | INFO     | public.mytest:login_func:40 - {'code': 20000, 'msg': 'service-unavailable', 'sub_code': 'unknow-error', 'sub_msg': 'error message', 'data': {}}
+2019-09-19 10:41:55.543 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 11:00:03.250 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 11:00:03.250 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 11:00:03.250 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 11:00:03.250 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 11:00:03.372 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 11:00:03.374 | INFO     | public.mytest:login_func:37 - http://39.100.81.66:8080/login
+2019-09-19 11:00:03.375 | INFO     | public.mytest:login_func:39 - {'account': 'q5310543', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 11:00:03.377 | INFO     | public.mytest:login_func:40 - {'Content-Type': 'application/json'}
+2019-09-19 11:00:03.488 | INFO     | public.mytest:login_func:42 - {'code': 20000, 'msg': 'service-unavailable', 'sub_code': 'unknow-error', 'sub_msg': 'error message', 'data': {}}
+2019-09-19 11:00:09.997 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 11:09:08.668 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 11:09:08.668 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 11:09:08.668 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 11:09:08.669 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 11:09:08.793 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 11:09:08.794 | INFO     | public.mytest:login_func:39 - http://39.100.81.66:8080/login
+2019-09-19 11:09:08.795 | INFO     | public.mytest:login_func:41 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 11:09:08.795 | INFO     | public.mytest:login_func:42 - {'Content-Type': 'application/json'}
+2019-09-19 11:09:08.912 | INFO     | public.mytest:login_func:44 - {'code': 10000, 'msg': 'success', 'data': {'accessToken': 'bf704f9a168b45299f69e957a74d5b35', 'refreshToken': '7d5eb828c8774ab4908858726335eafa', 'expiresIn': 7200, 'createTime': 1568862547148}}
+2019-09-19 11:09:08.913 | INFO     | public.mytest:setUp:57 - ############################### START ###############################
+2019-09-19 11:09:08.914 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': 'bf704f9a168b45299f69e957a74d5b35'}
+2019-09-19 11:09:09.025 | INFO     | public.mytest:tearDown:61 - ###############################  End  ###############################
+2019-09-19 11:09:09.026 | INFO     | public.mytest:setUp:57 - ############################### START ###############################
+2019-09-19 11:09:09.027 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': 'bf704f9a168b45299f69e957a74d5b35'}
+2019-09-19 11:09:09.135 | INFO     | public.mytest:tearDown:61 - ###############################  End  ###############################
+2019-09-19 11:09:16.818 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 16:50:43.599 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 16:50:43.599 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 16:50:43.600 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 16:50:43.600 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 16:50:43.710 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 16:50:43.711 | INFO     | public.mytest:login_func:39 - http://39.100.81.66:8080/login
+2019-09-19 16:50:43.711 | INFO     | public.mytest:login_func:41 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 16:50:43.712 | INFO     | public.mytest:login_func:42 - {'Content-Type': 'application/json'}
+2019-09-19 16:50:43.818 | INFO     | public.mytest:login_func:44 - {'code': 10000, 'msg': 'success', 'data': {'accessToken': 'f37b69ad705b4db09fd353d98a4e5f7e', 'refreshToken': 'dd452eee50a94b698e8038141d0d5007', 'expiresIn': 7200, 'createTime': 1568883042062}}
+2019-09-19 16:50:43.819 | INFO     | public.mytest:setUp:57 - ############################### START ###############################
+2019-09-19 16:50:43.820 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': 'f37b69ad705b4db09fd353d98a4e5f7e'}
+2019-09-19 16:50:43.928 | INFO     | public.mytest:tearDown:61 - ###############################  End  ###############################
+2019-09-19 16:50:43.934 | INFO     | public.mytest:setUp:57 - ############################### START ###############################
+2019-09-19 16:50:43.936 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'token': 'f37b69ad705b4db09fd353d98a4e5f7e'}
+2019-09-19 16:50:44.050 | INFO     | public.mytest:tearDown:61 - ###############################  End  ###############################
+2019-09-19 16:50:50.487 | INFO     | public.sendmail:send:84 - 发送邮件成功
+2019-09-19 16:53:41.370 | INFO     | public.mytest:setUp:17 - ############################### START ###############################
+2019-09-19 16:53:41.371 | INFO     | test_login:test_login:20 - http://39.100.81.66:8080/login
+2019-09-19 16:53:41.371 | INFO     | test_login:test_login:21 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 16:53:41.371 | INFO     | test_login:test_login:22 - {'Content-Type': 'application/json'}
+2019-09-19 16:53:41.488 | INFO     | public.mytest:tearDown:21 - ###############################  End  ###############################
+2019-09-19 16:53:41.489 | INFO     | public.mytest:login_func:39 - http://39.100.81.66:8080/login
+2019-09-19 16:53:41.490 | INFO     | public.mytest:login_func:41 - {'account': '281878321@qq.com', 'password': 'q5310543', 'platform_code': 'PLATFORM', 'app_id': 'a1287a3837f640e0'}
+2019-09-19 16:53:41.491 | INFO     | public.mytest:login_func:42 - {'Content-Type': 'application/json'}
+2019-09-19 16:53:41.605 | INFO     | public.mytest:login_func:44 - {'code': 10000, 'msg': 'success', 'data': {'accessToken': 'be6c90c062a7428bbcdb4ddca564a37b', 'refreshToken': 'b412fc83d4e14ddd8efc2e9a1b84b648', 'expiresIn': 7200, 'createTime': 1568883219849}}
+2019-09-19 16:53:41.606 | INFO     | public.mytest:setUp:57 - ############################### START ###############################
+2019-09-19 16:53:41.606 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'Authorization': 'Bearer be6c90c062a7428bbcdb4ddca564a37b'}
+2019-09-19 16:53:41.867 | INFO     | public.mytest:tearDown:61 - ###############################  End  ###############################
+2019-09-19 16:53:41.868 | INFO     | public.mytest:setUp:57 - ############################### START ###############################
+2019-09-19 16:53:41.868 | INFO     | test_other:test_api:20 - {'Content-Type': 'application/json', 'Authorization': 'Bearer be6c90c062a7428bbcdb4ddca564a37b'}
+2019-09-19 16:53:42.146 | INFO     | public.mytest:tearDown:61 - ###############################  End  ###############################
+2019-09-19 16:53:48.371 | INFO     | public.sendmail:send:84 - 发送邮件成功
