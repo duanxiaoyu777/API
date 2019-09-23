@@ -8,3 +8,4 @@ class ConfigInit():
     mongo_ip_port = '39.100.120.147:27017'
     mongo_user = 'root'
     mongo_pw = "jimi@321"
+    #测试测试
