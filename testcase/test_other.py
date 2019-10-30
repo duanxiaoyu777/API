@@ -22,5 +22,6 @@ class Other(mytest.MyTokenTest):
             r = SendRequest().send_json_post(url=url, dict=send_data, header=self.headers)
         if method == 'get':
             r = SendRequest().send_get_request(url=url,header=self.headers)
+        # print('url:{}\r\nmethod:{}\r\nrequest_data:{}\r\nresponse:{}'.format(url,method, send_data, r))
         self.assertEqual(r['code'], assert_info['code'])
         self.assertEqual(r['msg'], assert_info['msg'])

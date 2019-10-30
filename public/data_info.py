@@ -4,10 +4,15 @@ import os
 import ast
 from config.basic_config import ConfigInit
 from config import globalparam
+# from pprint import pprint
+from xlutils.copy import copy
+from loguru import logger
 
 
 PATH = os.path.join(globalparam.data_path, ConfigInit.data_filename)  # 运行配置
 # PATH = os.path.join(os.path.abspath(os.path.join(os.getcwd(), "..")), 'data\\testdata', ConfigInit.data_filename)  # 调试路径
+write_path = os.path.join(globalparam.project_path,'data\\testdata', ConfigInit.data_filename)
+# write_path = 'D:\\workhome\\project\\apitest\\public\\data\\testdata\\data.xlsx'
 
 # print(PATH)
 def get_excel_dict(path, index=0):
@@ -23,6 +28,7 @@ def get_excel_dict(path, index=0):
         dictTestCaseName={}
 
         for caseData in list:
+            dict['rownum'] = rownum
             dict[firstRowDataList[list.index(caseData)]] =caseData #每一行数据与第一行数据对应转为字典
             #json.dumps(json.loads(caseData), ensure_ascii=False)
         # print(list)
@@ -45,10 +51,19 @@ def get_test_case_data(data_info,testCaseName):
             getTestCaseDatadict['method'] = data[testCaseName]['method']
             getTestCaseDatadict['url'] = data[testCaseName]['url']
             getTestCaseDatadict['case_name'] = data[testCaseName]['case_name']
+            getTestCaseDatadict['rownum'] = data[testCaseName]['rownum']
             getTestCaseDataList.append(getTestCaseDatadict)
 
     return getTestCaseDataList
 
+def write_res(rownum,data):
+    oldwb = xlrd.open_workbook(write_path, formatting_info=True)
+    newwb = copy(oldwb)
+    sheet = newwb.get_sheet(0)
+    sheet.write(rownum, 6, data)
+    newwb.save(write_path)
+
 data_info = get_excel_dict(PATH)
+# pprint(data_info[2])
 # a = get_test_case_data(data_info, 'login')
 # print(a)

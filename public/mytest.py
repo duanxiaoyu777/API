@@ -27,7 +27,7 @@ class MyTokenTest(unittest.TestCase):
     """
 
     @classmethod
-    def login_func(self, account='281878321@qq.com', pw='q5310543'):
+    def login_func(cls, account='281878321@qq.com', pw='q5310543'):
         """封装登陆函数"""
         send_data = {
             "account":account,
