@@ -1,17 +1,7 @@
 *.pyc
-*.md
 
-report/html_report/
 *.html
-
-
-report/log/
 *.log
-
-
-config/
-*_config.py
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
