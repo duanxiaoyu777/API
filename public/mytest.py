@@ -12,8 +12,9 @@ class MyTest(unittest.TestCase):
     The base class is for all testcase.
     """
     def setUp(self):
-        self.url = ConfigInit.login_url
-        self.headers = {'Content-Type': 'application/json'}
+        self.url = ConfigInit.url
+        self.headers = {'Content-Type': 'application/json',
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36'}
         logger.info('############################### START ###############################')
 
 
@@ -23,26 +24,27 @@ class MyTest(unittest.TestCase):
 
 class MyTokenTest(unittest.TestCase):
     """
-    The base class is for all testcase.
+    The base class is for all testcase.=
     """
 
     @classmethod
-    def login_func(cls, account='281878321@qq.com', pw='q5310543'):
-        """封装登陆函数"""
+    def login_func(cls, account='13800138907', password='5bc791b2da1b1efa077dd20b2211f6c1'):
+        """封装登录函数"""
+
         send_data = {
-            "account":account,
-            "password":pw,
-            "platform_code":"PLATFORM",
-            "app_id":"a1287a3837f640e0"
+            'mobile': account,
+            'password': password
         }
-        url = ConfigInit.login_url + '/login'
+        url = ConfigInit.url + 'member/login'
         logger.info(url)
-        headers = {'Content-Type': 'application/json'}
+        headers = {'Content-Type': 'application/json',
+                   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36'}
         logger.info(send_data)
         logger.info(headers)
         r = SendRequest().send_json_post(url=url, dict=send_data, header=headers)
         logger.info(r)
-        token = r['data']['accessToken']
+        # print(r)
+        token = r['data']['token']
         return token
 
     @classmethod
@@ -52,7 +54,8 @@ class MyTokenTest(unittest.TestCase):
     def setUp(self):
         self.url = ConfigInit.url
         self.headers = {'Content-Type': 'application/json',
-                        'Authorization':'Bearer ' + self.token
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+                        'token': self.token
                         }
         logger.info('############################### START ###############################')
 

@@ -1,6 +1,6 @@
 # coding=utf-8
 import redis
-from config.config import ConfigInit
+from config.basic_config import ConfigInit
 
 redis_store = None
 

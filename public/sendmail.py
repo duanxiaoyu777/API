@@ -16,7 +16,7 @@ reportPath = globalparam.report_path
 sendaddr_name = ConfigInit.sendaddr_name
 sendaddr_pswd = ConfigInit.sendaddr_pswd
 # 配置收发件人
-recvaddress = ['281878321@qq.com']
+recvaddress = ['435811031@qq.com']
 
 
 class SendMail:
@@ -39,7 +39,7 @@ class SendMail:
         """生成邮件的内容，和html报告附件"""
         newreport = self.__get_report()
         self.msg = MIMEMultipart()
-        self.msg['Subject'] = 'UI测试报告'
+        self.msg['Subject'] = '接口测试报告'
         self.msg['date'] = time.strftime('%a, %d %b %Y %H:%M:%S %z')
 
         with open(os.path.join(reportPath, newreport), 'rb') as f:
@@ -72,7 +72,7 @@ class SendMail:
     #     except Exception:
     #         logger.error('发送邮件失败')
     #         raise
-    def send(self):  #使用smtp发送
+    def send(self):  # 使用smtp发送
         """发送邮件"""
         self.__take_messages()
         self.msg['from'] = 'postmaster@{}'.format(sendaddr_name)

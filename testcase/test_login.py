@@ -1,5 +1,5 @@
-#coding=utf-8
-import ast
+# coding=utf-8
+import unittest
 import json
 from pprint import pprint
 from public import mytest
@@ -10,11 +10,11 @@ from public.data_info import get_test_case_data, data_info, write_res
 
 @ddt
 class Login(mytest.MyTest):
-    """登陆模块"""
+    """不需要验证token"""
 
+    # @unittest.skipIf(True, '调试不执行')
     @data(*get_test_case_data(data_info, 'login'))
     def test_login(self, data):
-        "登陆接口"
         method = data['method']
         url = self.url + data['url']
         send_data = data['send_data']
@@ -28,13 +28,6 @@ class Login(mytest.MyTest):
         if method == 'get':
             r = SendRequest().send_get_request(url=url,header=self.headers)
         # print('url:{}\r\nmethod:{}\r\nrequest_data:{}\r\nresponse:{}'.format(url,method, send_data, r))
-        write_res(rownum, json.dumps(r, indent=2, ensure_ascii=False))
-        self.assertEqual(r['code'], assert_info['code'])
-        self.assertEqual(r['msg'], assert_info['msg'])
-
-
-
-
-
-
-
+        write_res(rownum, json.dumps(r, indent=2, ensure_ascii=False))  # 接口返回值写入表格
+        self.assertEqual(r['status'], assert_info['status'])            # 断言status==status
+        # self.assertEqual(r['info'], assert_info['info'])                # 断言info==info

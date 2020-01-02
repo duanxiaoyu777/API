@@ -1,4 +1,4 @@
-这是一个接口自动化框架，内容构成：python+unittest+request+ddt，编写人：古城
+这是一个接口自动化框架，内容构成：python+unittest+request+ddt，编写人：段祥斌
 
 目录结构说明：
 
