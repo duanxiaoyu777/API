@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57930411-9c9c-4476-bba4-65ac53438ad9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/testdata/data.xls" afterPath="$PROJECT_DIR$/data/testdata/data.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/apitest.iml" afterPath="$PROJECT_DIR$/.idea/apitest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/basic_config.py" afterPath="$PROJECT_DIR$/config/basic_config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/globalparam.py" afterPath="$PROJECT_DIR$/config/globalparam.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/data_info.py" afterPath="$PROJECT_DIR$/public/data_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mongo_utils.py" afterPath="$PROJECT_DIR$/public/mongo_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mysql_utils.py" afterPath="$PROJECT_DIR$/public/mysql_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mytest.py" afterPath="$PROJECT_DIR$/public/mytest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/redis_utils.py" afterPath="$PROJECT_DIR$/public/redis_utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/send_request.py" afterPath="$PROJECT_DIR$/public/send_request.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sendmail.py" afterPath="$PROJECT_DIR$/public/sendmail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/test_login.py" afterPath="$PROJECT_DIR$/testcase/test_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/test_other.py" afterPath="$PROJECT_DIR$/testcase/test_other.py" />
-    </list>
+    <list default="true" id="57930411-9c9c-4476-bba4-65ac53438ad9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -620,7 +602,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
+    <frame x="-7" y="2" width="1932" height="1045" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15083507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
